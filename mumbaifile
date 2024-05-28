@@ -1,21 +1,3 @@
-provider "aws" {
-  alias = "us-east-1"
-  region = "us-east-1"
-}
+## Output Variables
 
-provider "aws" {
-  alias = "us-west-2"
-  region = "us-west-2"
-}
-
-resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0"
-  instance_type = "t2.micro"
-  provider = "aws.us-east-1"
-}
-
-resource "aws_instance" "example2" {
-  ami = "ami-0123456789abcdef0"
-  instance_type = "t2.micro"
-  provider = "aws.us-west-2"
-}
+Output variables allow you to expose values from your module or configuration, making them available for use in other parts of your Terraform setup. Here's how you define an output variable:
