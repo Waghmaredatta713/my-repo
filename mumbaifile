@@ -1,3 +1,11 @@
 ## Output Variables
 
 Output variables allow you to expose values from your module or configuration, making them available for use in other parts of your Terraform setup. Here's how you define an output variable:
+Ansible interview question
+
+* what is the programming language that ansible uses OR have you ever tried to contribute to ansible or write some custom
+module in ansible?
+- python is programming language which ansible using and you can write your own models using python and contribute to the ansible if you wrote any custom modules you can talk about it if not you can directly say that there was no requirement but because i am comfortable with python i can always write a module whenever it is required.
+
+* ansible support Linux and windows or only Linux 
+- ansible support both Linux and windows and how does it support is for Linux it uses a protocol called ssh and for windows it uses a protocol called win RM.
